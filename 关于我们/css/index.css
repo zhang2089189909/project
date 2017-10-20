@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  clear: both; }
+
+header {
+  width: 100%;
+  height: 2.3rem; }
+  header img {
+    width: 30%;
+    padding: 0.4rem;
+    margin-left: 0.1rem;
+    float: left; }
+  header .test {
+    font-size: 0.9rem;
+    color: #000000;
+    line-height: 2.3rem;
+    margin-left: 35%; }
+  header .mine {
+    margin-top: -3.55rem;
+    float: right;
+    margin-right: 13%; }
+    header .mine i {
+      color: #999999;
+      font-size: 1.2rem;
+      line-height: 4.5rem; }
+    header .mine p {
+      color: #999999;
+      font-size: 0.11rem;
+      margin-top: -1.4rem; }
+  header .nav {
+    float: right;
+    margin-right: -18%;
+    padding-right: 0.4rem;
+    margin-top: -3.55rem; }
+    header .nav i {
+      color: #999999;
+      font-size: 1rem;
+      line-height: 4.5rem; }
+    header .nav p {
+      color: #999999;
+      font-size: 0.11rem;
+      margin-top: -1.4rem; }
+
+ul {
+  list-style: none; }
+  ul li {
+    list-style: none; }
+
+.banner {
+  margin-top: 0.25rem;
+  border: 1px solid #F4F4F4;
+  width: 100%; }
+
+.backtop {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20%;
+  right: 5%;
+  float: right;
+  background-color: white; }
+  .backtop i {
+    font-size: 3.25rem;
+    color: #CCCCCC; }
+
+.atitle {
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 0.8rem; }
+
+hr {
+  width: 95%;
+  margin-left: 2.5%; }
+
+.aaa {
+  float: left;
+  background-color: white;
+  margin-top: -0.6rem;
+  width: 5rem;
+  text-align: center;
+  margin-left: 36%; }
+
+.content {
+  width: 95%;
+  margin-left: 2.5%;
+  padding-top: 0.8rem;
+  text-indent: 1rem;
+  font-size: 0.7rem;
+  color: #333333;
+  float: left;
+  padding-bottom: 0.95rem; }
+
+.btitle {
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 0.8rem; }
+
+.bbb {
+  float: left;
+  background-color: white;
+  margin-top: -0.6rem;
+  width: 5rem;
+  text-align: center;
+  margin-left: 36%; }
+
+.kong {
+  width: 100%;
+  height: 0.45rem; }
+
+.fuwu {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%; }
+  .fuwu .fuwu-title {
+    margin-top: 0.9rem;
+    text-align: center;
+    font-size: 0.7rem;
+    color: #333333; }
+    .fuwu .fuwu-title i {
+      font-size: 0.8rem;
+      color: #75DAB5; }
+  .fuwu ul {
+    width: 95%;
+    margin-left: 5%;
+    display: flex; }
+    .fuwu ul li {
+      margin-top: 0.9rem;
+      flex: 1;
+      font-size: 0.7rem;
+      color: #333333; }
+    .fuwu ul .firstli {
+      color: #75DAB5; }
+  .fuwu .biao {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.9rem;
+    font-size: 0.7rem;
+    color: #999999; }
+
+footer img {
+  width: 100%; }
+
+/*# sourceMappingURL=index.css.map */

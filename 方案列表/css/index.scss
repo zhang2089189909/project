@@ -1,0 +1,243 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    clear: both;
+}
+header{
+    width: 100%;
+    height: 2.3rem;
+    img{
+        width: 30%;
+        padding: 0.4rem;
+        margin-left: 0.1rem;
+        float: left;
+    }
+    .test{
+        font-size: 0.9rem;
+        color: #000000;
+        line-height: 2.3rem;
+        padding-top: 0.2rem;
+        margin-left: 35%;
+    }
+    .mine{
+        margin-top: -3.75rem;
+        float: right;
+//      padding: 0.9rem;
+        margin-right: 13%;
+//      padding-top: 0.9rem;
+        i{
+            color: #999999;
+            font-size: 1.2rem;
+            line-height: 4.5rem;
+        }
+        p{
+            color: #999999;
+            font-size: 0.11rem;
+            margin-top: -1.4rem;
+        }
+    }
+    .nav{
+        float: right;
+        padding-right: 0.4rem;
+        margin-top: -3.75rem;
+        i{
+            color: #999999;
+            font-size: 1rem;
+            line-height: 4.5rem;
+        }
+        p{
+            color: #999999;
+            font-size: 0.11rem;
+            margin-top: -1.4rem;
+        }
+    }
+}
+.imggg{
+    margin-top: 0.5rem;
+    width: 100%;
+    background-color: #F4F4F4;
+    padding-top: 0.5rem;
+    .imgs1{
+        background-color: white;
+        margin-top: 0.125rem;
+        width: 95%;
+        margin-left: 2.5%;
+        overflow-x: hidden;
+        img{
+            width: 100%;
+        }
+        .title{
+            font-size: 0.9rem;
+            margin-left: 5%;
+            padding-top: 0.75rem;
+        }
+        .tehui{
+            font-size: 0.7rem;
+            margin-left: 5%;
+            padding-top: 0.75rem;
+            padding-bottom: 0.9rem;
+            span{
+                color: #FF4450;
+            }
+        }
+        button{
+            float: right;
+            margin-top: -3.3rem;
+            height: 2rem;
+            width: 8rem;
+            text-align: left;
+            border-radius: 25px;
+            border: none;
+            background-color: #FF4450;
+            color: white;
+            margin-right: -15%;
+            font-size: 0.7rem;
+        }
+    }
+    .imgs2{
+        background-color: white;
+        margin-top: 0.625rem;
+        width: 95%;
+        margin-left: 2.5%;
+        overflow-x: hidden;
+        img{
+            width: 100%;
+        }
+        .title{
+            font-size: 0.9rem;
+            margin-left: 5%;
+            padding-top: 0.75rem;
+        }
+        .tehui{
+            font-size: 0.7rem;
+            margin-left: 5%;
+            padding-top: 0.75rem;
+            padding-bottom: 0.9rem;
+            span{
+                color: #FF4450;
+            }
+        }
+        button{
+            margin-right: -15%;
+            float: right;
+            margin-top: -3.3rem;
+            height: 2rem;
+            width: 8rem;
+            text-align: left;
+            border-radius: 25px;
+            border: none;
+            background-color: #FF4450;
+            color: white;
+            font-size: 0.7rem;
+        }
+    }
+}
+ul{
+    list-style: none;
+}
+.kong{
+    width: 100%;
+    height: 0.45rem;
+    background-color: #F4F4F4;
+}
+.duanluo{
+    text-indent: 1rem;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 0.9rem;
+    font-size: 0.7rem;
+    color: #333333;
+    margin-bottom: 0.9rem;
+}
+.backtop{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20%;
+    right: 5%;
+    float: right;
+    background-color: white;
+//  margin-right: 2.5%;
+    i{
+        font-size: 3.25rem;
+        color: #CCCCCC;
+    }
+}
+.fuwu{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    .fuwu-title{
+        margin-top: 0.9rem;
+        text-align: center;
+        font-size: 0.7rem;
+        color: #333333;
+        i{
+            font-size: 0.8rem;
+            color: #75DAB5;
+        }
+    }
+    ul{
+        width: 90%;
+        margin-left: 10%;
+        display: flex;
+        li{
+            margin-top: 0.9rem;
+            flex: 1;
+            font-size: 0.7rem;
+            color: #333333;
+        }
+        .firstli{
+            color: #75DAB5;
+        }
+    }
+    .biao{
+        margin-top: 1rem;
+        margin-left: 30%;
+        margin-bottom: 0.9rem;
+        position: absolute;
+    }
+}
+.zhezhao{
+    float: left;
+    width: 100%;
+    height: 2.65rem;
+    background-color: rgba(0,0,0,0.8);
+    .imgone{
+        width: 1rem;
+        height: 1rem;
+        float: left;
+    }
+    .imgtwo{
+        width: 10rem;
+        margin-top: 0.25rem;
+        margin-left: 1rem;
+    }
+    .btn{
+        float: right;
+        line-height: 2.65rem;
+        margin-right: 2%;
+        button{
+            width: 4.375rem;
+            height: 1.25rem;
+            background-color: #FEB605;
+            font-size: 0.6rem;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            text-align: center;
+        }
+    }
+}
+footer{
+    img{
+        width: 100%;
+    }
+}

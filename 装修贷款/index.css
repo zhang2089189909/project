@@ -1,0 +1,439 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+/*头部*/
+.top{
+	width: 100%;
+	height: 2.14rem;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	/*background: pink;*/
+}
+.top .div1{
+	width: 5rem;
+	height: 2.14rem;	
+}
+.top .div1 img{
+	width: 4.58rem;
+	height: 1.57rem;
+    margin-top: 0.34rem;
+    margin-left: 0.38rem;   
+}
+.top .div2{
+	font-size: 0.76rem;
+	margin-left: 1.62rem;
+}
+
+.top .div3{
+	width: 2.64rem;
+	height:2.14rem ;
+	margin-left: 3.22rem;
+}
+.top .div3 ul{
+	width: 2.64rem;
+	height:2.14rem ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.top .div3 ul li{
+	width: 50%;
+}
+.top .div3 ul li img:nth-of-type(1){
+	width: 0.85rem;
+	height: 0.91rem;
+}
+
+.top .div3 ul li p{
+	font-size: 0.59rem;
+	color: #9B9B9B;
+	margin-top: -0.2rem;
+}
+
+
+/*banner*/
+#banner img{
+	width: 100%;
+	height:6.40rem ;
+}
+
+/*head*/
+#head{
+	width: 100%;
+	height: 12.86rem;
+	/*border: 1px solid red;*/
+}
+#head .h-1{
+	width: 100%;
+	height:2.77rem;
+	/*border: 1px solid blue;*/
+}
+#head .h-1 p{
+	text-align: center;
+	font-size: 0.76rem;
+	margin-top: 0.69rem;
+}
+#head .h-1 img{
+   width: 1.57rem;
+   height: 0.53rem;
+   text-align: center;
+   margin-left: 7.1rem;
+}
+
+#head .h-2 {
+   width:100%;
+   height:9.17rem;
+   /*border: 1px solid red;*/
+
+}
+#head .h-2  input{
+   width: 12.48rem;
+   height: 1.53rem;
+   border: 2px solid #EAEAEA;
+   margin-top: 0.74rem;
+   margin-left: 1.85rem;
+   font-size: 0.59rem;
+   color: #EAEAEA;
+}
+
+
+.lj {
+     width:  12.48rem;
+     height: 1.53rem;
+     background: #FEB605;
+     border-radius: 0.2rem;
+     position: relative;
+     color: white;
+     font-size: 0.59rem;
+     margin-top: 0.53rem;
+     /*border: 1px solid #3CC893;*/
+     margin-left: 1.85rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+ 
+
+#ban{
+	width: 100%;
+	height: 6.4rem;
+	border: 0.05rem dashed #3DC893;
+
+}
+#ban p:nth-of-type(1){
+	text-align: center;
+	font-size: 0.74rem;
+	color: #333;
+	margin-top: 0.6rem;
+}
+
+#ban span{
+	text-align: center;
+	font-size: 0.5rem;
+	color: #333;
+	margin-top: 0.70rem;
+	margin-left: 1.64rem;
+}
+#ban p:nth-of-type(2){
+	font-size: 0.5rem;
+	margin-left: 0.76rem;
+	margin-top: 0.42rem;
+
+}
+#ban p:nth-of-type(3){
+	font-size: 0.5rem;
+	margin-left: 0.76rem;
+	margin-top: 0.42rem;
+}
+#ban p:nth-of-type(4){
+	font-size: 0.5rem;
+	margin-left: 0.76rem;
+	color:#3DC893;
+	margin-top: 0.42rem;
+}
+
+
+/*shen*/
+#shen{
+	width: 100%;
+	height: 9.86rem;
+	/*border: 1px solid red;*/
+}
+#shen .s-1{
+	width: 100%;
+	height:2.77rem;
+	/*border: 1px solid blue;*/
+}
+#shen .s-1 p{
+	text-align: center;
+	font-size: 0.76rem;
+	margin-top: 0.69rem;
+}
+#shen .s-1 img{
+   width: 1.57rem;
+   height: 0.53rem;
+   text-align: center;
+   margin-left: 7.1rem;
+}
+
+#shen .s-2{
+   width: 100%;
+   height: 5.71rem;
+   margin-top: 0.76rem;
+}
+#shen .s-2 ul{
+	width: 100%;
+    height: 5.71rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+#shen .s-2 ul li{
+	width: 33%;
+}
+
+#shen .s-2 ul li img{
+	width: 4.90rem;
+	height: 5.71rem;
+}
+
+
+/*申请条件*/
+#tiao{
+	width: 100%;
+	height: 13.12rem;
+	/*border: 1px solid red;*/
+}
+#tiao .t-1{
+	width: 100%;
+	height:2.77rem;
+	/*border: 1px solid blue;*/
+}
+#tiao .t-1 p{
+	text-align: center;
+	font-size: 0.76rem;
+	margin-top: 0.69rem;
+}
+#tiao .t-1 img{
+   width: 1.57rem;
+   height: 0.53rem;
+   text-align: center;
+   margin-left: 7.1rem;
+}
+
+#tiao .t-2{
+   width: 100%;
+   height: 4.26rem;
+   margin-top: 0.5rem;
+}
+#tiao .t-2 ul{
+	width: 100%;
+	/*border: 1px solid red;*/
+    height: 4.26rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
+#tiao .t-2 ul li{
+	margin-top: 0.5rem;
+}
+#tiao .t-2 ul li img{
+	width: 2.24rem;
+	height: 2.24rem;
+}
+#tiao .t-2 ul li p{
+	font-size: 0.59rem;
+	color: #333;
+}
+
+
+section {
+	width: 100%;
+	height: 24rem;
+	background: #F4F4F4;
+}
+section .lian{
+	width: 100%;
+	height: 4.58rem;
+	text-align: center;
+}
+section .lian img{
+	margin-top: 0.85rem;
+}
+
+section .bang{
+	width: 100%;
+	height: 0.42rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section .bang .ggg{
+	width: 0.21rem;
+	height: 3.5rem;
+	background: #3DC994;
+	margin-top: 1.5rem;
+	text-align: center;
+}
+
+/*section .loan {
+	width: 100%;
+	height: 1.70rem;
+	border: 1px solid blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section .loan img {
+    width: 8.74rem;
+    height: 1.70rem;
+}*/
+
+
+/*房先森*/
+/*section .fang {
+    width: 100%;
+    height: 8.32rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .fang .f-1 {
+    width: 50%;
+    height: 8.32rem;
+    background: olive;
+}
+section .fang .f-1  img{
+	width: 4rem;
+	height: 1.57rem;
+   margin-left: 1.15rem;
+   margin-top: 0.70rem;
+}
+section .fang .f-2{
+	width: 100%;
+	height: 0.42rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section .fang .f-2 .fff{
+	width: 0.21rem;
+	height: 7.25rem;
+	background: #3DC994;
+	margin-top: -0.5rem;
+	text-align: center;
+}*/
+
+
+section .zhong{
+	width: 100%;
+	height: 21.54rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section .zhong img{
+	text-align: center;
+}
+
+
+
+
+#zi{
+   width: 100%;
+   height: 5.19rem;
+   margin-top: 0.5rem;
+}
+#zi span{
+   margin-left: 1.60rem;
+   font-size: 0.59rem;
+   color: #333;
+   margin-top: 0.53rem;
+}
+#zi p{
+   margin-left: 0.38rem;
+   font-size: 0.59rem;
+   color: #333;
+   margin-top: 0.34rem;
+}
+
+
+.zzz{
+	width: 100%;
+	height: 0.42rem;
+	background: #F4F4F4;
+}
+
+#cp{
+	width: 100%;
+	height: 3.63rem;
+	/*border: 1px solid red;*/
+}
+
+#cp .c-1{
+	width: 100%;
+	height: 2.13rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#cp .c-1 img{
+	width: 0.70rem;
+	height: 0.70rem;
+}
+#cp .c-1 span{
+	font-size: 0.59rem;
+	margin-left: 0.28rem;
+}
+
+
+
+#cp .c-2{
+	width: 100%;
+	height: 1.60rem;
+	/*border: 2px solid #efefef;*/
+}
+#cp .c-2 ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 0.35rem;
+	text-align: center;
+	
+}
+#cp .c-2 ul li{
+	width: 33%;
+}
+
+#cp .c-2 ul li p{
+	font-size:0.59rem ;
+	color: #000;
+}
+
+#cp .c-2 ul li p:hover{
+	color: #A9E5C9;
+}
+
+footer {
+	width: 100%;
+	height: 0.85rem;
+	margin-top: -0.2rem;
+}
+footer img{
+	width: 100%;
+	height: 0.85rem;
+}
+
+
+
+
+

@@ -1,0 +1,316 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+    clear: both;
+}
+ul{
+    list-style: none;
+    li{
+        list-style: none;
+    }
+}
+header{
+    width: 100%;
+    height: 6rem;
+    background-color: #39C893;
+    .ma-jpg{
+        float: left;
+        width: 4.5rem;
+        height: 4.5rem;
+        margin-top: 0.75rem;
+        margin-left: 5%;
+    }
+    .ma-text{
+        float: left;
+        width: 13rem;
+        margin-left: 1.4rem;
+        margin-top: 1rem;
+    }
+    .guanzhu{
+        float: left;
+        width: 24rem;
+        height: 2rem;
+        border-radius: 5rem;
+        background-color: #2bb280;
+        color: white;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        text-align: center;
+        margin-left: 1.4rem;
+        margin-top: 1rem;
+        span{
+            line-height: 2rem;
+            color: #F3D312;
+        }
+    }
+    .close{
+        float: left;
+        margin-top: -2rem;
+        margin-left: 1rem;
+        i{
+            color: #202020;
+        }
+    }
+}
+.search{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 0.1rem;
+    margin-bottom: 1rem;
+    .inp-text{
+        width: 78%;
+        height: 3.5rem;
+        border: 2px solid #39C893;
+        font-size: 1.4rem;
+        color: #aaa;
+    }
+    .inp-btn{
+        font-size: 1.4rem;
+        width: 6.9rem;
+        height: 3.5rem;
+        border: none;
+        border: 1px solid #39C893;
+        background-color: #39C893;
+        text-align: center;
+        color: white;
+    }
+}
+.kong{
+    width: 100%;
+    height: 0.9rem;
+    background-color: #F4F4F4;
+}
+.zhuangxiu{
+    width: 100%;
+    .listul-first{
+        width: 95%;
+        margin-left: 2.5%;
+        display: flex;
+        li{
+            flex: 1;
+            height: 3.75rem;
+            border-bottom: 2px solid #efefef;
+            line-height: 3.75rem;
+            text-align: center;
+            font-size: 1.4rem;
+        }
+        li:hover{
+            border-bottom: 2px solid #39C893;
+        }
+    }
+    .listul-second{
+        width: 95%;
+        margin-left: 2.5%;
+        display: flex;
+        li{
+            flex: 1;
+            margin-top: 1.8rem;
+            text-align: center;
+            div{
+                margin-left: 20%;
+                width: 5rem;
+                height: 5rem;
+                border: 2px solid #39C893;
+                text-align: center;
+                line-height: 5rem;
+                border-radius: 50%;
+                i{
+                    font-size: 3rem;
+                    color: #39C893;
+                }
+            }
+            p{
+                font-size: 1.4rem;
+                margin-top: 1.6rem;
+            }
+        }
+    }
+    button{
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 1.8rem;
+        width: 95%;
+        margin-left: 2.5%;
+        height: 3.5rem;
+        border: 1px solid #39C893;
+        margin-bottom: 1.6rem;
+    }
+}
+.foryou{
+    width: 100%;
+    overflow-x: hidden;
+    margin-bottom: 1.8rem;
+    .green{
+        width: 0.25rem;
+        height: 2.1rem;
+        background-color: #37C993;
+        margin-left: 2.5%;
+        margin-top: 1.6rem;
+        float: left;
+    }
+    p{
+        margin-top: 1.9rem;
+        font-size: 1.8rem;
+        color: #000000;
+        float: left;
+        margin-left: 0.5rem;
+    }
+    ul{
+        width: 95%;
+        margin-left: 2.5%;
+        li{
+            margin-top: 1.6rem;
+            width: 100%;
+            float: left;
+//          margin-bottom: 1.55rem;
+            border-bottom: 1px solid #F4F4F4;
+            img{
+                width: 9.5rem;
+                height: 7.25rem;
+                float: left;
+            }
+            .spanfirst{
+                margin-left: 10.6rem;
+                float: left;
+                margin-top: -7.25rem;
+            }
+            span{
+                float: left;
+                margin-left: 1.1rem;
+                color: #000000;
+                font-size: 1.8rem;
+                p{
+                    margin-top: 1.5rem;
+                }
+            }
+            div{
+                margin-top: 0.1rem;
+                font-size: 1.4rem;
+                color: #999999;
+                margin-left: 10.6rem;
+                margin-bottom: 1.55rem;
+            }
+            .div{
+                margin-top: 6rem;
+            }
+        }
+        .lilast{
+            border: none;
+        }
+    }
+    button{
+        color: #75DAB5;
+        background-color: white;
+        border: none;
+        height: 3.5rem;
+        border: 1px solid #F4F4F4;
+        font-size: 1.4rem;
+        width: 95%;
+        margin-left: 2.5%;
+        i{
+            font-size: 1.4rem;
+        }
+    }
+}
+.duanluo{
+    text-indent: 2rem;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 1.8rem;
+    font-size: 1.4rem;
+    color: #333333;
+    margin-bottom: 1.8rem;
+}
+.backtop{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20%;
+    right: 5%;
+    float: right;
+    background-color: white;
+//  margin-right: 2.5%;
+    i{
+        font-size: 6.5rem;
+        color: #CCCCCC;
+    }
+}
+.fuwu{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    .fuwu-title{
+        margin-top: 1.8rem;
+        text-align: center;
+        font-size: 1.4rem;
+        color: #333333;
+        i{
+            font-size: 1.6rem;
+            color: #75DAB5;
+        }
+    }
+    ul{
+        width: 90%;
+        margin-left: 10%;
+        display: flex;
+        li{
+            margin-top: 1.8rem;
+            flex: 1;
+            font-size: 1.4rem;
+            color: #333333;
+        }
+        .firstli{
+            color: #75DAB5;
+        }
+    }
+    .biao{
+        margin-top: 2rem;
+        margin-left: 30%;
+        margin-bottom: 1.8rem;
+        position: absolute;
+    }
+}
+.zhezhao{
+    float: left;
+    width: 100%;
+    height: 5.3rem;
+    background-color: rgba(0,0,0,0.8);
+    .imgone{
+        width: 2rem;
+        height: 2rem;
+        float: left;
+    }
+    .imgtwo{
+        width: 20rem;
+        margin-top: 0.5rem;
+        margin-left: 2rem;
+    }
+    .btn{
+        float: right;
+        line-height: 5.3rem;
+        margin-right: 2%;
+        button{
+            width: 8.75rem;
+            height: 2.5rem;
+            background-color: #FEB605;
+            font-size: 1.2rem;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            text-align: center;
+        }
+    }
+}
+footer{
+    img{
+        width: 100%;
+    }
+}

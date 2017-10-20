@@ -1,0 +1,300 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+/*头部*/
+.top{
+	width: 100%;
+	height: 2.14rem;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	/*background: pink;*/
+}
+.top .div1{
+	width: 5rem;
+	height: 2.14rem;	
+}
+.top .div1 img{
+	width: 4.58rem;
+	height: 1.57rem;
+    margin-top: 0.34rem;
+    margin-left: 0.38rem;   
+}
+.top .div2{
+	font-size: 0.6rem;
+	margin-left: 1.83rem;
+}
+
+.top .div3{
+	width: 2.64rem;
+	height:2.14rem ;
+	margin-left: 4rem;
+}
+.top .div3 ul{
+	width: 2.64rem;
+	height:2.14rem ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.top .div3 ul li img{
+	width: 0.85rem;
+	height: 0.91rem;
+}
+
+.top .div3 ul li p{
+	font-size: 0.59rem;
+	color: #9B9B9B;
+	margin-top: -0.2rem;
+}
+
+
+section{
+	width: 100%;
+	height: 5.6rem;
+	/*border: 1px solid red;*/
+    border-bottom: 0.02rem solid #999;
+}
+section .left{
+	width: 2.5rem;
+	height: 2.2rem;
+	/*border: 1px solid red;*/
+}
+section .left img{
+	width: 1.28rem;
+	height: 1.28rem;
+	margin-top: 0.76rem;
+	margin-left:0.85rem ;
+}
+section .right{
+	width: 13.17rem;
+	height: 2.2rem;
+	/*border: 1px solid red;*/
+	margin-left: 2.8rem;
+	margin-top: -2.2rem;	
+}
+section .right .r-1{
+	width: 12.07rem;
+	height: 0.72rem;
+	
+}
+section .right .r-1 div{
+	font-size: 0.59rem;
+	margin-left: 0.51rem;
+	margin-top:0.76rem ;
+	color:#3BCB92 ;	
+}
+section .right .r-1 div span{
+	font-size: 0.59rem;
+	margin-left: 0.51rem;
+	float: right;
+	margin-top:-0.03rem ;
+	color:#999 ;	
+}
+section .wei{
+	width: 100%;
+	height: 3.30rem;
+}
+section .wei p{
+	font-size: 0.76rem;
+	color: #000;
+	margin-left: 0.85rem;
+}
+
+
+#ban{
+	width: 100%;
+	height: 3.32rem;
+}
+#ban .b-1{
+	width: 14.97rem;
+	height: 1.81rem;
+	margin-left: 0.45rem;
+	margin-top: 0.85rem;
+}
+#ban .b-1 ul{
+	width: 14.97rem;
+	height: 1.81rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#ban .b-1 ul li{
+	width: 33%;
+}
+#ban  .b-1 ul li span{
+     width: 4.97rem;
+     height: 1.81rem;
+     background: #3CC893;
+     border-radius: 0.1rem;
+     position: relative;
+     color: white;
+     font-size: 0.59rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+#ban  .b-1 ul li .mmmm{
+	background-color: white;
+	color: black;
+}
+.ddd{
+	width: 100%;
+	height: 0.38rem;
+	background: #F4F4F4;
+}
+
+#ziti{
+	width: 100%;
+	height: 6.3rem;
+	/*border: 1px solid red;*/
+}
+
+#ziti p{
+	margin-left:1.62rem;
+	font-size: 0.59rem;
+	margin-top: 0.85rem;
+	
+}
+#ziti span{
+	margin-left: 0.36rem;
+	font-size: 0.59rem;
+	margin-top: 0.85rem;
+}
+
+
+
+.fff{
+	width: 100%;
+	height: 0.38rem;
+	background: #F4F4F4;
+	/*margin-top: 10rem;*/
+}
+
+
+#cp{
+	width: 100%;
+	height: 3.63rem;
+	/*border: 1px solid red;*/
+}
+
+#cp .c-1{
+	width: 100%;
+	height: 2.13rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#cp .c-1 img{
+	width: 0.70rem;
+	height: 0.70rem;
+}
+#cp .c-1 span{
+	font-size: 0.59rem;
+	margin-left: 0.28rem;
+}
+
+
+
+#cp .c-2{
+	width: 100%;
+	height: 1.60rem;
+	/*border: 2px solid #efefef;*/
+}
+#cp .c-2 ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 0.35rem;
+	text-align: center;
+	
+}
+#cp .c-2 ul li{
+	width: 33%;
+}
+
+#cp .c-2 ul li p{
+	font-size:0.59rem ;
+	color: #000;
+}
+
+#cp .c-2 ul li p:hover{
+	color: #A9E5C9;
+}
+
+
+#foo{
+	width: 100%;
+	height: 2.24rem;
+	background: #363636;
+	display: flex;
+	/*justify-content:space-between*/
+	align-items: center;
+}
+#foo img:nth-of-type(1){
+	margin-top: -1.5rem;
+}
+
+#foo img:nth-of-type(2){
+	width: 9.08rem;
+	height: 1.81rem;
+	margin-left: 0.57rem;
+}
+#foo .sou {
+     width: 3.73rem;
+     height: 1.06rem;
+     background:#FEB605;
+     border-radius: 2.13rem;
+     position: relative;
+     color: white;
+     font-size: 0.5rem;
+     margin-top: 0.13rem;
+     text-align: center;
+     margin-left: 0.76rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+footer {
+	width: 100%;
+	height: 0.85rem;
+	margin-top: -0.2rem;
+}
+footer img{
+	width: 100%;
+	height: 0.85rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

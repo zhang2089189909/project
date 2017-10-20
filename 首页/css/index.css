@@ -1,0 +1,478 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  clear: both;
+  font-size: 62.5%; }
+
+header {
+  width: 100%;
+  height: 4.5rem; }
+  header img {
+    width: 30%;
+    padding: 0.8rem;
+    margin-left: 0.1rem; }
+  header .mine {
+    float: right;
+    margin-right: 13%; }
+    header .mine i {
+      color: #999999;
+      font-size: 2.25rem;
+      line-height: 4.5rem; }
+    header .mine p {
+      color: #999999;
+      font-size: 0.11rem;
+      margin-top: -1.2rem; }
+  header .nav {
+    float: right;
+    margin-right: -18%;
+    padding-right: 0.9rem; }
+    header .nav i {
+      color: #999999;
+      font-size: 1.65rem;
+      line-height: 4.5rem; }
+    header .nav p {
+      color: #999999;
+      font-size: 0.11rem;
+      margin-top: -1.2rem; }
+
+.swiper-slide img {
+  width: 100%; }
+
+ul {
+  list-style: none; }
+  ul li {
+    list-style: none; }
+
+.first-list {
+  width: 100%;
+  display: flex;
+  margin-top: 1.8rem; }
+  .first-list li {
+    text-align: center;
+    flex: 1; }
+    .first-list li img {
+      width: 6rem; }
+    .first-list li p {
+      font-size: 1.4rem;
+      color: #333333; }
+
+.second-list {
+  width: 100%;
+  display: flex;
+  margin-top: 2.6rem;
+  margin-bottom: 2rem; }
+  .second-list li {
+    text-align: center;
+    flex: 1; }
+    .second-list li img {
+      width: 6rem; }
+    .second-list li p {
+      font-size: 1.4rem;
+      color: #333333; }
+
+.kong {
+  width: 100%;
+  height: 0.9rem;
+  background-color: #F4F4F4; }
+
+.all-room {
+  width: 100%;
+  overflow-x: hidden;
+  margin-bottom: 1.8rem; }
+  .all-room .green {
+    width: 0.25rem;
+    height: 2.1rem;
+    background-color: #37C993;
+    margin-left: 2.5%;
+    margin-top: 1.6rem;
+    float: left; }
+  .all-room p {
+    margin-top: 1.9rem;
+    font-size: 1.8rem;
+    color: #000000;
+    float: left;
+    margin-left: 0.5rem; }
+  .all-room .shmi {
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+    color: #999999;
+    margin-left: 0.5rem; }
+  .all-room img {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 1.6rem; }
+  .all-room .allroom-bottomfirst {
+    margin-top: 1.8rem;
+    margin-left: 2.5%;
+    float: left; }
+    .all-room .allroom-bottomfirst i {
+      font-size: 1.8rem;
+      color: #33C790; }
+    .all-room .allroom-bottomfirst span {
+      font-size: 1.4rem;
+      color: #000000; }
+  .all-room .allroom-bottomsecond {
+    margin-top: 1.8rem;
+    margin-left: 2rem;
+    float: left; }
+    .all-room .allroom-bottomsecond i {
+      font-size: 1.8rem;
+      color: #33C790; }
+    .all-room .allroom-bottomsecond span {
+      font-size: 1.4rem;
+      color: #000000; }
+  .all-room .allroom-bottomthird {
+    margin-top: 1.8rem;
+    margin-left: 2rem;
+    float: left; }
+    .all-room .allroom-bottomthird i {
+      font-size: 1.8rem;
+      color: #33C790; }
+    .all-room .allroom-bottomthird span {
+      font-size: 1.4rem;
+      color: #000000; }
+
+.yuyue {
+  width: 100%;
+  overflow-x: hidden;
+  margin-bottom: 1.8rem; }
+  .yuyue .green {
+    width: 0.25rem;
+    height: 2.1rem;
+    background-color: #37C993;
+    margin-left: 2.5%;
+    margin-top: 1.5rem;
+    float: left; }
+  .yuyue p {
+    margin-top: 1.9rem;
+    font-size: 1.8rem;
+    color: #000000;
+    float: left;
+    margin-left: 0.5rem; }
+  .yuyue .shmi {
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+    color: #999999;
+    margin-left: 0.5rem; }
+  .yuyue input {
+    width: 29.3rem;
+    height: 3.5rem;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    color: #cacaca;
+    font-size: 1.4rem;
+    margin-top: 1.25rem;
+    margin-left: 7.5%; }
+  .yuyue button {
+    width: 29.3rem;
+    height: 3.5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 1.25rem;
+    margin-left: 7.5%;
+    font-size: 1.8rem;
+    color: white;
+    border: 1px solid #FEB605;
+    background-color: #FEB605; }
+
+.person {
+  width: 100%;
+  overflow-x: hidden;
+  margin-bottom: 1.8rem; }
+  .person .green {
+    width: 0.25rem;
+    height: 2.1rem;
+    background-color: #37C993;
+    margin-left: 2.5%;
+    margin-top: 1.5rem;
+    float: left; }
+  .person .person-title {
+    margin-top: 1.9rem;
+    font-size: 1.8rem;
+    color: #000000;
+    float: left;
+    margin-left: 0.5rem; }
+  .person ul {
+    width: 95%;
+    margin-left: 2.5%;
+    display: flex; }
+    .person ul li {
+      margin-top: 2rem;
+      flex: 1; }
+      .person ul li img {
+        width: 7rem; }
+      .person ul li p {
+        margin-top: 1.25rem;
+        font-size: 1.8rem;
+        color: #000000;
+        text-align: center; }
+      .person ul li div {
+        width: 6rem;
+        height: 1.6rem;
+        text-align: center;
+        color: white;
+        font-size: 1.2rem;
+        background-color: #39C893;
+        margin-left: 0.5rem;
+        border-radius: 5px;
+        line-height: 1.6rem; }
+  .person button {
+    margin-top: 1.25rem;
+    color: #75DAB5;
+    background-color: white;
+    border: none;
+    height: 3.5rem;
+    border: 1px solid #F4F4F4;
+    font-size: 1.4rem;
+    width: 47.5%; }
+    .person button i {
+      font-size: 1.4rem; }
+  .person .btnfirst {
+    border-right: none; }
+
+.image {
+  width: 100%;
+  overflow-x: hidden;
+  margin-bottom: 1.8rem; }
+  .image .green {
+    width: 0.25rem;
+    height: 2.1rem;
+    background-color: #37C993;
+    margin-left: 2.5%;
+    margin-top: 1.5rem;
+    float: left; }
+  .image .image-title {
+    margin-top: 1.9rem;
+    font-size: 1.8rem;
+    color: #000000;
+    float: left;
+    margin-left: 0.5rem; }
+  .image ul {
+    width: 95%;
+    margin-left: 2.5%;
+    display: flex; }
+    .image ul li {
+      margin-top: 0.4rem;
+      flex: 1; }
+      .image ul li img {
+        width: 100%; }
+    .image ul .listli {
+      margin-right: 0.4rem; }
+    .image ul .listone {
+      margin-top: 1.6rem; }
+  .image button {
+    margin-top: 1.8rem;
+    color: #75DAB5;
+    background-color: white;
+    border: none;
+    height: 3.5rem;
+    border: 1px solid #F4F4F4;
+    font-size: 1.4rem;
+    width: 47.5%; }
+    .image button i {
+      font-size: 1.4rem; }
+  .image .btnfirst {
+    border-right: none;
+    margin-left: 2.5%; }
+
+.zhibo {
+  width: 100%;
+  overflow-x: hidden;
+  margin-bottom: 1.8rem; }
+  .zhibo .green {
+    width: 0.25rem;
+    height: 2.1rem;
+    background-color: #37C993;
+    margin-left: 2.5%;
+    margin-top: 1.5rem;
+    float: left; }
+  .zhibo .zhibo-title {
+    margin-top: 1.9rem;
+    font-size: 1.8rem;
+    color: #000000;
+    float: left;
+    margin-left: 0.5rem; }
+  .zhibo img {
+    margin-top: 1.6rem;
+    margin-left: 2.5%;
+    width: 95%; }
+  .zhibo span {
+    font-size: 1.4rem;
+    color: #000000;
+    margin-left: 2.5%;
+    float: left;
+    margin-top: 1rem; }
+  .zhibo .nimu {
+    text-align: center;
+    color: white;
+    font-size: 1.4rem;
+    background-color: #39C893;
+    border-radius: 5px;
+    width: 6rem;
+    height: 1.4rem;
+    margin-left: 28%;
+    margin-top: 1rem; }
+  .zhibo button {
+    margin-top: 1.8rem;
+    color: #75DAB5;
+    background-color: white;
+    border: none;
+    height: 3.5rem;
+    border: 1px solid #F4F4F4;
+    font-size: 1.4rem;
+    width: 47.5%; }
+    .zhibo button i {
+      font-size: 1.4rem; }
+  .zhibo .btnfirst {
+    border-right: none;
+    margin-left: 2.5%; }
+
+.gonglue {
+  width: 100%;
+  overflow-x: hidden;
+  margin-bottom: 1.8rem; }
+  .gonglue .green {
+    width: 0.25rem;
+    height: 2.1rem;
+    background-color: #37C993;
+    margin-left: 2.5%;
+    margin-top: 1.5rem;
+    float: left; }
+  .gonglue .gonglue-title {
+    margin-top: 1.9rem;
+    font-size: 1.8rem;
+    color: #000000;
+    float: left;
+    margin-left: 0.5rem; }
+  .gonglue ul {
+    width: 95%;
+    margin-left: 2.5%; }
+    .gonglue ul li {
+      margin-top: 1.6rem;
+      width: 100%;
+      float: left;
+      border-bottom: 1px solid #F4F4F4; }
+      .gonglue ul li img {
+        width: 9.5rem;
+        height: 7.25rem;
+        float: left; }
+      .gonglue ul li span {
+        float: left;
+        margin-left: 1.1rem;
+        color: #000000;
+        font-size: 1.8rem; }
+        .gonglue ul li span p {
+          margin-top: 1.5rem; }
+      .gonglue ul li div {
+        margin-top: 0.1rem;
+        font-size: 1.4rem;
+        color: #999999;
+        margin-left: 10.6rem;
+        margin-bottom: 1.55rem; }
+      .gonglue ul li .div {
+        margin-top: 6rem; }
+    .gonglue ul .lilast {
+      border: none; }
+  .gonglue button {
+    float: left;
+    color: #75DAB5;
+    background-color: white;
+    border: none;
+    height: 3.5rem;
+    border: 1px solid #F4F4F4;
+    font-size: 1.4rem;
+    width: 47.5%; }
+    .gonglue button i {
+      font-size: 1.4rem; }
+  .gonglue .btnfirst {
+    float: left;
+    border-right: none;
+    margin-left: 2.5%; }
+
+.duanluo {
+  text-indent: 2rem;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 1.8rem;
+  font-size: 1.4rem;
+  color: #333333;
+  margin-bottom: 1.8rem; }
+
+.backtop {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20%;
+  right: 5%;
+  float: right;
+  background-color: white; }
+  .backtop i {
+    font-size: 6.5rem;
+    color: #CCCCCC; }
+
+.fuwu {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%; }
+  .fuwu .fuwu-title {
+    margin-top: 1.8rem;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #333333; }
+    .fuwu .fuwu-title i {
+      font-size: 1.6rem;
+      color: #75DAB5; }
+  .fuwu ul {
+    width: 90%;
+    margin-left: 10%;
+    display: flex; }
+    .fuwu ul li {
+      margin-top: 1.8rem;
+      flex: 1;
+      font-size: 1.4rem;
+      color: #333333; }
+    .fuwu ul .firstli {
+      color: #75DAB5; }
+  .fuwu .biao {
+    margin-top: 2rem;
+    margin-left: 30%;
+    margin-bottom: 1.8rem;
+    position: absolute; }
+
+.zhezhao {
+  float: left;
+  width: 100%;
+  height: 5.3rem;
+  background-color: rgba(0, 0, 0, 0.8); }
+  .zhezhao .imgone {
+    width: 2rem;
+    height: 2rem;
+    float: left; }
+  .zhezhao .imgtwo {
+    width: 20rem;
+    margin-top: 0.5rem;
+    margin-left: 2rem; }
+  .zhezhao .btn {
+    float: right;
+    line-height: 5.3rem;
+    margin-right: 2%; }
+    .zhezhao .btn button {
+      width: 8.75rem;
+      height: 2.5rem;
+      background-color: #FEB605;
+      font-size: 1.2rem;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      text-align: center; }
+
+footer img {
+  width: 100%; }
+
+/*# sourceMappingURL=index.css.map */

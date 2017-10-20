@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  clear: both; }
+
+header {
+  width: 100%;
+  padding-bottom: 0.25rem; }
+  header img {
+    width: 30%;
+    padding: 0.4rem;
+    margin-left: 0.1rem;
+    float: left; }
+  header .test {
+    font-size: 0.9rem;
+    color: #000000;
+    line-height: 2.3rem;
+    padding-top: 0.2rem;
+    margin-left: 35%; }
+  header .mine {
+    margin-top: -3.75rem;
+    float: right;
+    margin-right: 13%; }
+    header .mine i {
+      color: #999999;
+      font-size: 1.2rem;
+      line-height: 4.5rem; }
+    header .mine p {
+      color: #999999;
+      font-size: 0.11rem;
+      margin-top: -1.4rem; }
+  header .nav {
+    float: right;
+    padding-right: 0.4rem;
+    margin-top: -3.75rem; }
+    header .nav i {
+      color: #999999;
+      font-size: 1rem;
+      line-height: 4.5rem; }
+    header .nav p {
+      color: #999999;
+      font-size: 0.11rem;
+      margin-top: -1.4rem; }
+
+.jianjie {
+  padding-bottom: 0.65rem; }
+  .jianjie img {
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 1rem;
+    width: 6rem; }
+  .jianjie .title {
+    float: left;
+    font-size: 0.9rem;
+    color: #000000;
+    padding-left: 0.55rem;
+    margin-top: 0.8rem; }
+  .jianjie .xiang {
+    padding-top: 2.3rem;
+    font-size: 0.7rem;
+    color: #999999;
+    padding-left: 7.1rem; }
+    .jianjie .xiang span {
+      color: #FD3C3C; }
+  .jianjie .xiang1 {
+    padding-top: 0.5rem;
+    font-size: 0.7rem;
+    color: #999999;
+    padding-left: 7.1rem; }
+    .jianjie .xiang1 span {
+      color: #000000; }
+  .jianjie .shanch {
+    padding-left: 7.1rem;
+    font-size: 0.7rem;
+    color: #999999;
+    padding-top: 0.5rem; }
+    .jianjie .shanch span {
+      color: #FD3C3C; }
+  .jianjie .linian {
+    font-size: 0.4rem;
+    color: #000000;
+    padding-top: 0.5rem;
+    padding-left: 2.5%; }
+
+ul {
+  list-style: none; }
+
+.tt {
+  width: 100%;
+  border-bottom: 1px solid #F4F4F4;
+  display: flex; }
+  .tt li {
+    flex: 1;
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem; }
+  .tt li:hover {
+    border-bottom: 3px solid #39C895; }
+
+.btns {
+  width: 100%;
+  height: 3.2rem;
+  margin-left: 2.5%;
+  overflow-x: hidden; }
+  .btns button {
+    margin-top: 0.9rem;
+    border-radius: 25px;
+    height: 1.35rem;
+    border: 1px solid #39C893;
+    background-color: white;
+    font-size: 0.7rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    outline: none;
+    color: #39C893; }
+  .btns button:hover {
+    background-color: #39C893;
+    color: white; }
+
+table {
+  width: 95%;
+  margin-left: 2.5%;
+  border-top: 1px solid #dcdcdc;
+  margin-bottom: 0.9rem;
+  font-size: 0.5rem; }
+  table tr {
+    color: #999999; }
+    table tr td {
+      border-bottom: 1px solid #dcdcdc;
+      border-right: 1px solid #DCDCDC;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      padding-left: 0.25rem; }
+    table tr .one, table tr .two {
+      width: 25%; }
+    table tr .none {
+      width: 49%;
+      border-right: none; }
+  table .first {
+    color: #39C895; }
+
+.kong {
+  width: 100%;
+  height: 0.45rem;
+  background-color: #F4F4F4; }
+
+.duanluo {
+  text-indent: 1rem;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 0.9rem;
+  font-size: 0.7rem;
+  color: #333333;
+  margin-bottom: 0.9rem; }
+
+.backtop {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20%;
+  right: 5%;
+  float: right;
+  background-color: white; }
+  .backtop i {
+    font-size: 3.25rem;
+    color: #CCCCCC; }
+
+.fuwu {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%; }
+  .fuwu .fuwu-title {
+    margin-top: 0.9rem;
+    text-align: center;
+    font-size: 0.7rem;
+    color: #333333; }
+    .fuwu .fuwu-title i {
+      font-size: 0.8rem;
+      color: #75DAB5; }
+  .fuwu ul {
+    width: 90%;
+    margin-left: 10%;
+    display: flex; }
+    .fuwu ul li {
+      margin-top: 0.9rem;
+      flex: 1;
+      font-size: 0.7rem;
+      color: #333333; }
+    .fuwu ul .firstli {
+      color: #75DAB5; }
+  .fuwu .biao {
+    margin-top: 1rem;
+    margin-left: 30%;
+    margin-bottom: 0.9rem;
+    position: absolute; }
+
+.zhezhao {
+  float: left;
+  width: 100%;
+  height: 2.5rem;
+  background-color: rgba(255, 67, 81, 0.8); }
+  .zhezhao p {
+    font-size: 0.9rem;
+    color: white;
+    text-align: center;
+    line-height: 2.5rem; }
+    .zhezhao p i {
+      height: 1.4rem;
+      font-size: 1.4rem; }
+
+footer img {
+  width: 100%; }
+
+/*# sourceMappingURL=index.css.map */

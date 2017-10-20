@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  clear: both; }
+
+header {
+  width: 100%;
+  height: 2.3rem; }
+  header img {
+    width: 30%;
+    padding: 0.4rem;
+    margin-left: 0.1rem;
+    float: left; }
+  header .test {
+    font-size: 0.9rem;
+    color: #000000;
+    line-height: 2.3rem;
+    margin-left: 35%; }
+  header .mine {
+    margin-top: -3.55rem;
+    float: right;
+    margin-right: 13%; }
+    header .mine i {
+      color: #999999;
+      font-size: 1.2rem;
+      line-height: 4.5rem; }
+    header .mine p {
+      color: #999999;
+      font-size: 0.11rem;
+      margin-top: -1.4rem; }
+  header .nav {
+    float: right;
+    margin-right: -18%;
+    padding-right: 0.4rem;
+    margin-top: -3.55rem; }
+    header .nav i {
+      color: #999999;
+      font-size: 1rem;
+      line-height: 4.5rem; }
+    header .nav p {
+      color: #999999;
+      font-size: 0.11rem;
+      margin-top: -1.4rem; }
+
+.banner {
+  width: 100%; }
+  .banner img {
+    width: 100%; }
+  .banner .img-first {
+    margin-top: -0.21rem;
+    width: 100%;
+    height: 21.5rem;
+    background-image: url(../img/process2.jpg);
+    background-size: 100%; }
+    .banner .img-first .before {
+      font-size: 0.9rem;
+      color: #ff4351;
+      padding-top: 1.2rem;
+      margin-left: 15%; }
+    .banner .img-first .number {
+      font-size: 0.7rem;
+      color: #000000; }
+    .banner .img-first .number-one {
+      padding-top: 2.6rem;
+      margin-left: 21%;
+      padding-left: 0.8rem; }
+    .banner .img-first .number-two {
+      padding-top: 3.2rem;
+      margin-left: 53%;
+      padding-right: 0.8rem; }
+    .banner .img-first .number-three {
+      padding-top: 3.2rem;
+      margin-left: 21%;
+      padding-left: 0.8rem; }
+    .banner .img-first .number-four {
+      padding-top: 3.2rem;
+      margin-left: 53%;
+      padding-right: 0.8rem; }
+  .banner .img-second {
+    margin-top: -0.17rem;
+    width: 100%;
+    height: 21.5rem;
+    background-image: url(../img/process3.png);
+    background-size: 100%; }
+    .banner .img-second .ing {
+      font-size: 0.9rem;
+      color: #1398F4;
+      padding-top: 1.2rem;
+      margin-left: 61%; }
+    .banner .img-second .number {
+      font-size: 0.7rem;
+      color: #000000; }
+    .banner .img-second .number-five {
+      padding-top: 2.8rem;
+      margin-left: 53%;
+      padding-right: 0.8rem; }
+    .banner .img-second .number-six {
+      padding-top: 3.4rem;
+      margin-left: 21%;
+      padding-left: 0.8rem; }
+    .banner .img-second .number-seven {
+      padding-top: 3.2rem;
+      margin-left: 53%;
+      padding-right: 0.8rem; }
+    .banner .img-second .number-eight {
+      padding-top: 3.2rem;
+      margin-left: 21%;
+      padding-left: 0.8rem; }
+  .banner .img-third {
+    width: 100%;
+    height: 23.7rem;
+    background-image: url(../img/process4.jpg);
+    background-size: 100%; }
+    .banner .img-third .after {
+      font-size: 0.9rem;
+      color: #7971E9;
+      padding-top: 1.2rem;
+      margin-left: 15%; }
+    .banner .img-third .number {
+      font-size: 0.7rem;
+      color: #000000; }
+    .banner .img-third .number-nine {
+      padding-top: 2.6rem;
+      margin-left: 21%;
+      padding-left: 0.8rem; }
+    .banner .img-third .number-ten {
+      padding-top: 3.2rem;
+      margin-left: 53%;
+      padding-right: 0.8rem; }
+    .banner .img-third .number-eleven {
+      padding-top: 3.1rem;
+      margin-left: 21%;
+      padding-left: 0.8rem; }
+    .banner .img-third .number-tweleve {
+      padding-top: 3.2rem;
+      margin-left: 53%;
+      padding-right: 0.8rem; }
+
+ul {
+  list-style: none; }
+  ul li {
+    list-style: none; }
+
+.kong {
+  width: 100%;
+  height: 0.45rem;
+  background-color: #F4F4F4; }
+
+.duanluo {
+  text-indent: 1rem;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 0.9rem;
+  font-size: 0.7rem;
+  color: #333333;
+  margin-bottom: 0.9rem; }
+
+.backtop {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20%;
+  right: 5%;
+  float: right;
+  background-color: white; }
+  .backtop i {
+    font-size: 3.25rem;
+    color: #CCCCCC; }
+
+.fuwu {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%; }
+  .fuwu .fuwu-title {
+    margin-top: 0.9rem;
+    text-align: center;
+    font-size: 0.7rem;
+    color: #333333; }
+    .fuwu .fuwu-title i {
+      font-size: 0.8rem;
+      color: #75DAB5; }
+  .fuwu ul {
+    width: 90%;
+    margin-left: 10%;
+    display: flex; }
+    .fuwu ul li {
+      margin-top: 0.9rem;
+      flex: 1;
+      font-size: 0.7rem;
+      color: #333333; }
+    .fuwu ul .firstli {
+      color: #75DAB5; }
+  .fuwu .biao {
+    margin-top: 1rem;
+    margin-left: 30%;
+    margin-bottom: 0.9rem;
+    position: absolute; }
+
+.zhezhao {
+  float: left;
+  width: 100%;
+  height: 2.65rem;
+  background-color: rgba(0, 0, 0, 0.8); }
+  .zhezhao .imgone {
+    width: 1rem;
+    height: 1rem;
+    float: left; }
+  .zhezhao .imgtwo {
+    width: 10rem;
+    margin-top: 0.25rem;
+    margin-left: 1rem; }
+  .zhezhao .btn {
+    float: right;
+    line-height: 2.65rem;
+    margin-right: 2%; }
+    .zhezhao .btn button {
+      width: 4.375rem;
+      height: 1.25rem;
+      background-color: #FEB605;
+      font-size: 0.6rem;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      text-align: center; }
+
+footer img {
+  width: 100%; }
+
+/*# sourceMappingURL=index.css.map */

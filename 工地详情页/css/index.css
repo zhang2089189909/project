@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  clear: both; }
+
+header {
+  width: 100%;
+  height: 2.3rem; }
+  header img {
+    width: 30%;
+    padding: 0.4rem;
+    margin-left: 0.1rem;
+    float: left; }
+  header .test {
+    font-size: 0.9rem;
+    color: #000000;
+    line-height: 2.3rem;
+    margin-left: 35%; }
+  header .mine {
+    margin-top: -3.55rem;
+    float: right;
+    margin-right: 13%; }
+    header .mine i {
+      color: #999999;
+      font-size: 1.2rem;
+      line-height: 4.5rem; }
+    header .mine p {
+      color: #999999;
+      font-size: 0.11rem;
+      margin-top: -1.4rem; }
+  header .nav {
+    float: right;
+    margin-right: -18%;
+    padding-right: 0.4rem;
+    margin-top: -3.55rem; }
+    header .nav i {
+      color: #999999;
+      font-size: 1rem;
+      line-height: 4.5rem; }
+    header .nav p {
+      color: #999999;
+      font-size: 0.11rem;
+      margin-top: -1.4rem; }
+
+ul {
+  list-style: none; }
+  ul li {
+    list-style: none; }
+
+.sel {
+  width: 100%;
+  height: 7.95rem;
+  margin-top: 0.5rem;
+  border-top: 1px solid #F4F4F4; }
+  .sel p {
+    font-size: 0.6rem;
+    color: #000000; }
+    .sel p span {
+      color: #999999; }
+  .sel .title, .sel .title1 {
+    font-size: 0.7rem; }
+  .sel .title {
+    float: left;
+    padding-top: 0.9rem;
+    margin-left: 2.5%; }
+  .sel .title1 {
+    float: right;
+    margin-top: 0.9rem;
+    background-color: #39C893;
+    margin-right: 33.4%;
+    border-radius: 5px; }
+  .sel .xiang {
+    float: left;
+    margin-top: 0.75rem;
+    margin-left: 2.5%; }
+  .sel .xiang1 {
+    float: left;
+    margin-top: 0.75rem;
+    margin-left: 10%; }
+  .sel .xiang2 {
+    margin-left: 62%;
+    margin-top: 2.42rem; }
+  .sel .gaiku {
+    margin-top: 0.75rem;
+    margin-left: 2.5%; }
+  .sel div {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 0.75rem; }
+    .sel div button {
+      width: 50%;
+      height: 1.75rem;
+      border: 1px solid #F4F4F4;
+      background-color: white;
+      color: #39C893;
+      font-size: 0.7rem; }
+    .sel div .btn {
+      border-right: none;
+      color: #7FC5FE; }
+
+.list {
+  width: 100%;
+  height: 37.3rem;
+  background-color: #F4F4F4;
+  font-size: 0.7rem; }
+  .list .title2 {
+    float: left;
+    margin-left: 2.5%;
+    padding-top: 0.9rem; }
+    .list .title2 span {
+      color: #39C893; }
+  .list .title3 {
+    padding-top: 0.9rem;
+    margin-left: 40%; }
+    .list .title3 span {
+      color: #999999; }
+  .list .lists {
+    width: 95%;
+    margin-left: 5%;
+    border-left: 1px solid #dcdcdc; }
+    .list .lists li {
+      margin-top: 0.9rem;
+      margin-left: -2.5%; }
+      .list .lists li .boll {
+        width: 1.125rem;
+        height: 1.125rem;
+        border-radius: 50%;
+        background-color: #39C893;
+        position: relative; }
+      .list .lists li .content {
+        margin-top: -0.5625rem;
+        margin-left: 2.5%; }
+        .list .lists li .content .border {
+          float: left;
+          margin-left: 0.5625rem;
+          width: 1.125rem;
+          border-top: 1px solid #39c895; }
+        .list .lists li .content .date {
+          float: left;
+          margin-top: -0.75rem;
+          height: 1.5rem;
+          padding: 0.3rem;
+          background-color: #EAEAEA;
+          color: #666666; }
+        .list .lists li .content .con1 {
+          float: left;
+          margin-top: -0.75rem;
+          height: 1.5rem;
+          padding: 0.3rem;
+          background-color: #39C895;
+          color: white; }
+        .list .lists li .content .con2 {
+          float: left;
+          margin-top: -0.75rem;
+          height: 1.5rem;
+          padding: 0.3rem;
+          background-color: #FEB605;
+          color: white;
+          margin-left: 2.5%; }
+        .list .lists li .content .cont {
+          padding-top: 0.75rem;
+          margin-left: 1.6875rem; }
+          .list .lists li .content .cont .title4 {
+            margin-top: 0.75rem;
+            padding-bottom: 0.75rem; }
+          .list .lists li .content .cont .ul1 {
+            margin-right: 2.5%;
+            display: flex; }
+            .list .lists li .content .cont .ul1 li {
+              margin-top: -0.1rem;
+              margin-left: 0.05rem;
+              flex: 1; }
+              .list .lists li .content .cont .ul1 li img {
+                width: 98%; }
+          .list .lists li .content .cont .ul2 {
+            margin-right: 2.5%;
+            margin-top: -0.9rem;
+            display: flex; }
+            .list .lists li .content .cont .ul2 li {
+              flex: 1;
+              margin-left: 0.05rem; }
+              .list .lists li .content .cont .ul2 li img {
+                width: 98%; }
+
+.kong {
+  width: 100%;
+  height: 0.45rem;
+  background-color: #F4F4F4; }
+
+.duanluo {
+  text-indent: 1rem;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 0.9rem;
+  font-size: 0.7rem;
+  color: #333333;
+  margin-bottom: 0.9rem; }
+
+.backtop {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20%;
+  right: 5%;
+  float: right;
+  background-color: white; }
+  .backtop i {
+    font-size: 3.25rem;
+    color: #CCCCCC; }
+
+.fuwu {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%; }
+  .fuwu .fuwu-title {
+    margin-top: 0.9rem;
+    text-align: center;
+    font-size: 0.7rem;
+    color: #333333; }
+    .fuwu .fuwu-title i {
+      font-size: 0.8rem;
+      color: #75DAB5; }
+  .fuwu ul {
+    width: 90%;
+    margin-left: 10%;
+    display: flex; }
+    .fuwu ul li {
+      margin-top: 0.9rem;
+      flex: 1;
+      font-size: 0.7rem;
+      color: #333333; }
+    .fuwu ul .firstli {
+      color: #75DAB5; }
+  .fuwu .biao {
+    margin-top: 1rem;
+    margin-left: 30%;
+    margin-bottom: 0.9rem;
+    position: absolute; }
+
+.zhezhao {
+  float: left;
+  width: 100%;
+  height: 2.65rem;
+  background-color: rgba(0, 0, 0, 0.8); }
+  .zhezhao .imgone {
+    width: 1rem;
+    height: 1rem;
+    float: left; }
+  .zhezhao .imgtwo {
+    width: 10rem;
+    margin-top: 0.25rem;
+    margin-left: 1rem; }
+  .zhezhao .btn {
+    float: right;
+    line-height: 2.65rem;
+    margin-right: 2%; }
+    .zhezhao .btn button {
+      width: 4.375rem;
+      height: 1.25rem;
+      background-color: #FEB605;
+      font-size: 0.6rem;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      text-align: center; }
+
+footer img {
+  width: 100%; }
+
+/*# sourceMappingURL=index.css.map */
